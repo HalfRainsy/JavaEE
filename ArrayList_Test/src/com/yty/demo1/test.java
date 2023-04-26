@@ -14,5 +14,6 @@ public class test {
         System.out.println(1);
         System.out.println("zheshi yige ceshi lei ");
         System.out.println("ceshi disanhang ");
+        System.out.println("jahahahahah");
     }
 }
