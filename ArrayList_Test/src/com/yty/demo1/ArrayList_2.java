@@ -12,5 +12,8 @@ package com.yty.demo1;
 public class ArrayList_2 {
     public static void main(String[] args) {
         System.out.println();
+
+
+        System.out.println("zheshi yige cweshi de ");
     }
 }
