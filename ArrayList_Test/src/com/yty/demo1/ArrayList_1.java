@@ -31,6 +31,9 @@ public class ArrayList_1 {
         String[] foods;
         foods=new String[4];
         System.out.println(foods);
+        int arr[]=new int[4];
+        int[] arr1={1234};
+        //数组元素的调用
 
 
     }
