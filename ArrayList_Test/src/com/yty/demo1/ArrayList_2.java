@@ -1,5 +1,7 @@
 package com.yty.demo1;
 
+import java.util.Scanner;
+
 /**
  * ClassName: ArrayList_2
  * Package: com.yty.demo1
@@ -51,5 +53,23 @@ public class ArrayList_2 {
         for (int i = 0; i < arr6.length; i++) {
             System.out.println("String:"+arr6[i]);
         }
+
+
+        //练习
+        String[] weeks=new String[]{"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"};
+        Scanner scan=new Scanner(System.in);
+        System.out.println("请输入1-7");
+        int day= scan.nextInt();
+        if (day<1||day>7){
+            System.out.println("输入有误");
+        }else{
+            System.out.println(weeks[day - 1]);
+        }
+        scan.close();
+    //练习2
+        int[] score={};
+        Scanner scan1=new Scanner(System.in);
+        System.out.println("请输入学生人数");
+
     }
 }
