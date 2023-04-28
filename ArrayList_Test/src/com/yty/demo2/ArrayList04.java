@@ -37,6 +37,7 @@ public class ArrayList04 {
         System.out.println(arr3[1]);//[Ljava.lang.String;@677327b6
         System.out.println(arr3[0]);//[Ljava.lang.String;@14ae5a5
         System.out.println(arr3[0][2]);//null
+        System.out.println();
 
     }
 }
