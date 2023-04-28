@@ -29,15 +29,21 @@ public class ArrayList04 {
         System.out.println(arr1[0][1]);//0
 
         boolean[][] arr2=new boolean[3][9];
-        System.out.println(arr2[1]);//[Z@74a14482
-        System.out.println(arr2[0]);//[Z@1540e19d
-        System.out.println(arr2[0][2]);//false
+        System.out.println("arr2外层循环默认值："+arr2[1]);//[Z@74a14482
+        System.out.println("arr2外层循环默认值："+arr2[0]);//[Z@1540e19d
+        System.out.println("arr2内层循环默认值："+arr2[0][2]);//false
 
         String[][] arr3=new String[9][10];
-        System.out.println(arr3[1]);//[Ljava.lang.String;@677327b6
-        System.out.println(arr3[0]);//[Ljava.lang.String;@14ae5a5
-        System.out.println(arr3[0][2]);//null
+        System.out.println("arr3外层循环默认值："+arr3[1]);//[Ljava.lang.String;@677327b6
+        System.out.println("arr3外层循环默认值："+arr3[0]);//[Ljava.lang.String;@14ae5a5
+        System.out.println("arr3内层循环默认值："+arr3[0][2]);//null
         System.out.println();
-
+        //以动态初始化
+        int[][] arr14=new int[4][];
+        System.out.println("arr14外层循环默认值："+arr14[0]);//null
+       // System.out.println("arr14内层循环默认值"+arr14[0][0]);//空指针报错   NullPointerException----空指针
+        String[][] arr5=new String[5][];
+        System.out.println("arr5外层循环默认值："+arr5[0]);
+        //System.out.println("arr5内层循环默认值："+arr5[0][0]);//空指针报错   NullPointerException----空指针
     }
 }
