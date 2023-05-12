@@ -19,7 +19,7 @@ public class Phone {
         System.out.println("可以打电话");
     }
     public void sendMessage(String message){
-        System.out.println("发送信息");
+        System.out.println("发送信息："+message);
     }
     public void playGame(){
         System.out.println("可以玩游戏");
