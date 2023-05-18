@@ -12,4 +12,6 @@ public class Employee {
     String name;
     double age;
     int salary;
+    MyDate birthday;
+
 }
