@@ -9,6 +9,10 @@
  */
 public class MethodTest {
     public static void main(String[] args) {
+        Person p1=new Person();
+        System.out.println(p1.interesting("学习"));
+        p1.eat();
+
     /*
     方法声明的格式
         --public --权限修饰符
@@ -36,11 +40,22 @@ public class MethodTest {
                            格式：(形参类型1 形参1，形参类型2 形参2，....)
                            分类：无形参列表 -- 不能省略一对小括号.   Math.random();
                                 有形参列表 -- 根据方法调用时，需要的不确定的变量的类型和个数，确定形参的类型和个数。
+                            【经验】我们在声明方法时，是否需要形参列表呢？
+                            >根据方法具体实现的功能来决定，具体问题具体分析
+                            >根据题目要求
+                方法体：当我们调用一个方法时，真正执行了代码，体现了此方法的功能。
+                    每个人理解不同，写法不同。
+
+
+            Attention：先声明后使用   方法必须定义在类的内部。
+                       Java的方法不调用不执行，每调用一次执行一次。
+                       方法内可以调用本类的其他方法或属性。也可以自己调自己 但是容易死循环
+                       方法内不能定义方法！！！
         }
      */
     }
 }
-class Preson{
+class Person{
     String name;
     int age;
     char gender;
@@ -52,7 +67,7 @@ class Preson{
     }
     public String interesting(String hobby){//有返回值  返回值为string类型
         String info="我的爱好是"+hobby;
-        System.out.println(info);
+       // System.out.println(info);
         return info;
     }
     public int getAge(){
