@@ -1,3 +1,5 @@
+package studentTest;
+
 /**
  * ClassName: StudentTest
  * Package: PACKAGE_NAME
@@ -20,14 +22,8 @@ public class StudentTest {
 
         }
         //给每一个学生对象的number  status  score  赋值
-        for (int i = 0; i <s.length ; i++) {
-            if(3==s[i].state){
-                Student stu = s[i];
-              //  System.out.println("number是："+stu.number+"，班级是："+stu.state+"，成绩是:"+stu.score);
-            System.out.println(stu.show());
-
-            }
-        }
+       StudentUtil su=new StudentUtil();
+        su.printStudentsWithIndex(s,3);
         System.out.println("-------------------------------");
         //排序前
         for (int i = 0; i <s.length ; i++) {

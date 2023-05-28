@@ -20,8 +20,8 @@ public class Person {
     public int showAge(){
         return age;
     }
-    public int addAge(int age){
-      int i=  age=+2;
-        return i;
+    public void addAge(int addAge){
+     age+=addAge;
+
     }
 }
