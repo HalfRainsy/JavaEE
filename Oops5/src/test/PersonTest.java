@@ -12,6 +12,6 @@ package test;
 public class PersonTest {
     public static void main(String[] args) {
         Person p=new Person();
-        p.setAge(15);
+        p.setAge(-1);
     }
 }

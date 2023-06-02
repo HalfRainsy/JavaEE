@@ -27,7 +27,8 @@ public class Person {
 
     public void setAge(int ages) {
         if (ages >= 0 && ages <= 130) {
-            ages = age;
+            age = ages;
+
             System.out.println(ages);
         } else {
             System.out.println("输入非法");
