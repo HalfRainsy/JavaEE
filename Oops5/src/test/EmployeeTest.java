@@ -31,5 +31,11 @@ public class EmployeeTest {
             emps[i].setAge(age);
             emps[i].setPhoneNumber(phoneNumber);
         }
+        System.out.println("--------------------员工列表-----------------------------");
+        System.out.println("编号\t\t姓名\t性别\t年龄\t电话");
+        for (int i = 0; i < emps.length; i++) {
+            System.out.println((i+1)+emps[i].showInfo());
+        }
+        System.out.println("--------------------员工列表完成-----------------------------");
     }
 }
