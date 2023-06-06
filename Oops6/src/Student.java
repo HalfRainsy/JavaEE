@@ -13,6 +13,7 @@ public class Student {
     String school;
     String major;
 
+
     public Student(String n, int a) {
         name = n;
         age = a;
