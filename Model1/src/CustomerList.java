@@ -41,27 +41,27 @@ public class CustomerList {
         for (int i = index; i < total - 1; i++) {
             customers[i] = customers[i + 1];
         }
-        customers[total-1]=null;
+        customers[total - 1] = null;
         total--;
         return true;
     }
 
     public Customer[] getAllCustomers() {
-    Customer[] cuts=new Customer[total];
-        for (int i = 0; i <total ; i++) {
-            cuts[i]=customers[i];
+        Customer[] cuts = new Customer[total];
+        for (int i = 0; i < total; i++) {
+            cuts[i] = customers[i];
         }
         return cuts;
     }
 
     public Customer getCustomer(int index) {
-            if (index < 0|| index>=total){
-                return null;
-            }
-            return customers[index];
+        if (index < 0 || index >= total) {
+            return null;
+        }
+        return customers[index];
     }
 
     public int getTotal() {
-
+        return total;
     }
 }
