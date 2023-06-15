@@ -47,11 +47,18 @@ public class CustomerList {
     }
 
     public Customer[] getAllCustomers() {
-
+    Customer[] cuts=new Customer[total];
+        for (int i = 0; i <total ; i++) {
+            cuts[i]=customers[i];
+        }
+        return cuts;
     }
 
     public Customer getCustomer(int index) {
-
+            if (index < 0|| index>=total){
+                return null;
+            }
+            return customers[index];
     }
 
     public int getTotal() {
