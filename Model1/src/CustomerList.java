@@ -10,22 +10,34 @@
 public class CustomerList {
     private Customer[] customers;
     private int total;//记录保存客户数量的对象
-    public CustomerList(int totalCustomer){
-    customers =new Customer[totalCustomer];
+
+    public CustomerList(int totalCustomer) {
+        customers = new Customer[totalCustomer];
     }
-    public boolean addCustomer(Customer customer){
+
+    //添加数据到数组中
+    public boolean addCustomer(Customer customer) {
+        if (total < customers.length) {
+            customers[total] = customer;
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public boolean deleteCustomer(int index) {
 
     }
-    public boolean deleteCustomer(int index){
+
+    public Customer[] getAllCustomers() {
 
     }
-    public Customer[] getAllCustomers(){
+
+    public Customer getCustomer(int index) {
 
     }
-    public Customer getCustomer(int index){
 
-    }
-    public int getTotal(){
+    public int getTotal() {
 
     }
 }
