@@ -11,7 +11,7 @@ public class CustomerList {
     private Customer[] customers;
     private int total;//记录保存客户数量的对象
     public CustomerList(int totalCustomer){
-
+    customers =new Customer[totalCustomer];
     }
     public boolean addCustomer(Customer customer){
 
