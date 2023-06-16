@@ -35,6 +35,7 @@
     -Object    -Person   -Student
     student 与  object是什么关系？
         多层继承
+        person是student的直接父类  object是student的间接父类
         - 子类和父类是一种相对的概念
         - 顶层父类是Object类。所有的类默认继承Object，作为父类
-    一个父类可以有很多子类，但是一个子类只有一个父类，不能有多个父类。
+    一个父类可以有很多子类，但是一个子类只有一个父类，不能有多个父类。------Java的单继承性
