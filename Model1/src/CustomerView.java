@@ -14,8 +14,8 @@ public class CustomerView {
     CustomerList customerList = new CustomerList(10);
 
     public void enterMainMenu() {
-        boolean isFlag=true;
-        while(isFlag){
+        boolean isFlag = true;
+        while (isFlag) {
             System.out.println("\n---------------管理系统-----------------------------");
             System.out.println("                  1：添加客户                  ");
             System.out.println("                  2：修改客户                  ");
@@ -25,7 +25,7 @@ public class CustomerView {
             System.out.println("                   请选择1--5：                 ");
 
 
-            isFlag=false;
+            isFlag = false;
         }
     }
 
