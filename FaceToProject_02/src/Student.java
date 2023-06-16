@@ -1,3 +1,5 @@
+import com.sun.org.apache.xalan.internal.xsltc.dom.SortingIterator;
+
 /**
  * ClassName: Student
  * Package: PACKAGE_NAME
@@ -22,4 +24,7 @@ public class Student extends Person {
 //    public void sleep(){
 //        System.out.println("人睡觉");
 //    }
+public void show1(){
+    System.out.println("age:"+getAge()+"岁");
+}
 }
