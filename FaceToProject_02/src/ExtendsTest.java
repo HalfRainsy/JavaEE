@@ -12,10 +12,16 @@ public class ExtendsTest {
         Person p1 = new Person();
         p1.name = "tim";
         p1.eat();
+
+        System.out.println(p1.getName());
+        //person 的父类是object
         Student s1 = new Student();
         s1.name = "Tom";
         s1.sleep();
-
+        //获取s1所属的类的父类
+        System.out.println(s1.getClass().getSuperclass());
+        //获取p1所属的类的父类
+        System.out.println(p1.getClass().getSuperclass());
 
     }
 }
