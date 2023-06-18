@@ -18,6 +18,7 @@ public class Student extends Person {
     public void eat() {
         System.out.println("该吃很多食物");
     }
+    @Override
     public void sleep() {
         System.out.println("睡觉睡觉睡觉睡觉");
     }
