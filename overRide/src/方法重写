@@ -1,3 +1,18 @@
 1：为什么要方法重写？
     子类在继承父类之后，就获取了父类所有的方法。但父类的方法可能不太适合子类。
         子类要对继承过来的方法进行覆盖、重写的操作。
+        class  Account{
+        public void withDraw(){
+        //判断balance余额是否够atm取钱的额度
+        }
+
+                }
+                class CheckAccount extends Account{
+                double protectedBy;
+                public void withDraw(){
+                // 判断balance余额是否够atm取钱的额度
+                // 如果不够，可从protectedBy区。
+                }
+                }
+2:什么是方法的重写？
+    子类对于父类继承过来的方法进行的覆写、覆盖的操作，就称为方法的覆写。
