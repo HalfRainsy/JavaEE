@@ -22,5 +22,10 @@ public class Student extends Person {
     public void sleep() {
         System.out.println("学生保证每天6hour睡眠");
     }
+    public void show(){
+        eat();//省略了this
+        this.eat();
 
+        super.eat();//不影响封装为前提
+    }
 }
