@@ -18,6 +18,9 @@ public class Person {
     public void sleep() {
         System.out.println("人睡觉");
     }
+    public void sport(){
+        System.out.println("人运动");
+    }
 
-   
+
 }

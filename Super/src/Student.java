@@ -28,4 +28,7 @@ public class Student extends Person {
 
         super.eat();//不影响封装为前提
     }
+    public void show1(){
+        super.sport();
+    }
 }

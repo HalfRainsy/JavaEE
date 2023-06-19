@@ -13,5 +13,6 @@ public class StudentTest {
         s.eat();
         s.sleep();
         s.show();//调用父类的方法
+        s.show1();
     }
 }
