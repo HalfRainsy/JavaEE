@@ -17,6 +17,9 @@ public class StudentTest {
         s.show2();
         System.out.println("----------------------");
         Student s2=new Student();
+        System.out.println("*****************************");
+        Student s3=new Student("Tim",12);
+
 
     }
 }
