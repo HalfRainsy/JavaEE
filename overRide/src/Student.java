@@ -15,20 +15,23 @@ public class Student extends Person {
     public void study() {
         System.out.println("人学习");
     }
+
     public void eat() {
         System.out.println("该吃很多食物");
     }
+
     @Override
     public void sleep() {
         System.out.println("睡觉睡觉睡觉睡觉");
     }
-//    public void eat(){
+
+    //    public void eat(){
 //        System.out.println("人吃");
 //    }
 //    public void sleep(){
 //        System.out.println("人睡觉");
 //    }
-public void show1(){
-    System.out.println("age:"+getAge()+"岁");
-}
+    public void show1() {
+        System.out.println("age:" + getAge() + "岁");
+    }
 }

@@ -15,6 +15,7 @@ public class Student extends Person {
     public void study() {
         System.out.println("人学习");
     }
+
     public void eat() {
         System.out.println("学生多吃营养食物");
     }
@@ -22,13 +23,15 @@ public class Student extends Person {
     public void sleep() {
         System.out.println("学生保证每天6hour睡眠");
     }
-    public void show(){
+
+    public void show() {
         eat();//省略了this
         this.eat();
 
         super.eat();//不影响封装为前提
     }
-    public void show1(){
+
+    public void show1() {
         super.sport();
     }
 }
