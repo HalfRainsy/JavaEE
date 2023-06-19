@@ -15,5 +15,8 @@ public class StudentTest {
         s.show();//调用父类的方法
         s.show1();
         s.show2();
+        System.out.println("----------------------");
+        Student s2=new Student();
+
     }
 }

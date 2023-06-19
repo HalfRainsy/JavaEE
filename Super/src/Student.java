@@ -45,4 +45,15 @@ public class Student extends Person {
         System.out.println(this.name);//2    ----1与2是一致的
         System.out.println(super.name);
     }
+
+
+    //super形参列表
+    public Student() {
+        super();
+        System.out.println("student..");
+    }
+
+    public Student(String name, int age) {
+
+    }
 }

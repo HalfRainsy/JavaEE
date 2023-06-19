@@ -10,7 +10,22 @@
 public class Person {
     String name;
     int age;
-    int id=1001;//id card
+    int id = 1001;//id card
+
+    public Person(String name, int age, int id) {
+        this.name = name;
+        this.age = age;
+        this.id = id;
+    }
+
+    public Person() {
+        System.out.println("person");
+    }
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 
     public void eat() {
         System.out.println("人吃");
@@ -19,7 +34,8 @@ public class Person {
     public void sleep() {
         System.out.println("人睡觉");
     }
-    public void sport(){
+
+    public void sport() {
         System.out.println("人运动");
     }
 
