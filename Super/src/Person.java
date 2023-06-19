@@ -10,6 +10,7 @@
 public class Person {
     String name;
     int age;
+    int id=1001;//id card
 
     public void eat() {
         System.out.println("人吃");

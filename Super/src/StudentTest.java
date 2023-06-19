@@ -14,5 +14,6 @@ public class StudentTest {
         s.sleep();
         s.show();//调用父类的方法
         s.show1();
+        s.show2();
     }
 }

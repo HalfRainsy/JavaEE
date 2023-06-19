@@ -8,9 +8,9 @@
  * @Version 1.0
  */
 public class Student extends Person {
-    //    String name;
-//    int age;
+
     String school;
+    int id=1002;//Student number
 
     public void study() {
         System.out.println("人学习");
@@ -26,12 +26,16 @@ public class Student extends Person {
 
     public void show() {
         eat();//省略了this
-        this.eat();
+        this.eat();//在本类找
 
         super.eat();//不影响封装为前提
     }
 
     public void show1() {
-        super.sport();
+        super.sport();//直接在父类找
+    }
+    public void show2(){
+        System.out.println(id);//具有所谓的就近原则   所以输出1002
+        System.out.println(super.id);//直接在父类找  越过本类
     }
 }
