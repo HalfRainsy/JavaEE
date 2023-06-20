@@ -27,7 +27,7 @@ public class Student extends Person {
     public void show() {
         eat();//省略了this
         this.eat();//在本类找
-
+            //eat()   与 this.eat()一致
         super.eat();//不影响封装为前提
     }
 
