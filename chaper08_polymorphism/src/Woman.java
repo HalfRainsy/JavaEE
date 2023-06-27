@@ -17,7 +17,8 @@ public class Woman extends Person {
     public void walk() {
         System.out.println("Woman need to run ");
     }
-public void goShopping(){
-    System.out.println("需要逛街");
-}
+
+    public void goShopping() {
+        System.out.println("需要逛街");
+    }
 }
