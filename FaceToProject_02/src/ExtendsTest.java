@@ -22,6 +22,7 @@ public class ExtendsTest {
         System.out.println(s1.getClass().getSuperclass());
         //获取p1所属的类的父类
         System.out.println(p1.getClass().getSuperclass());
+        System.out.println("hahahahah");
 
     }
 }
