@@ -11,8 +11,9 @@ package apply;
  */
 public class AnimalTest {
     public static void main(String[] args) {
-        AnimalTest an=new AnimalTest();
+        AnimalTest an = new AnimalTest();
         an.func(new Cat());
+        an.func(new Dog());
     }
 
     public void func(Animal animal) {
@@ -55,7 +56,8 @@ class Cat extends Animal {
     public void jump() {
         System.out.println("猫跳树");
     }
-    public void catchM(){
+
+    public void catchM() {
         System.out.println("抓老鼠");
     }
 }
