@@ -13,9 +13,16 @@ public class GeometricTest {
     public static void main(String[] args) {
         GeometricTest test = new GeometricTest();
         Circle c1 = new Circle("red", 1.0, 2.3);
-        Circle c2 = new Circle("red", 1.0, 3.3);
+        Circle c2 = new Circle("red", 1.0, 2.3);
         test.displayGeoMetricObject(c1);
         test.displayGeoMetricObject(c2);
+        boolean isEquals = test.equalIsArea(c1, c2);
+        if (isEquals) {
+            System.out.println("面积相等");
+        } else {
+            System.out.println("面积不相等");
+        }
+        
     }
 
     /*
@@ -33,4 +40,6 @@ public class GeometricTest {
     public void displayGeoMetricObject(GeometricObject g) {
         System.out.println("几何图形的面积为：" + g.findArea());
     }
+    //动态绑定：编译和运行不是同一个方法
+    //静态绑定：编译和运行指的是同一个方法
 }
