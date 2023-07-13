@@ -1,0 +1,26 @@
+1：object类的说明：
+    >明确：java.lang.Object
+    >任何一个Java类(除Object)都直接或间接的结成与Object类。
+    >Object类称为Java类的根父类
+    >Object声明的结构(属性、方法)具备通用性。
+        >object没有属性
+        >object提供了一个空参的构造器
+        >重点关注：object类中声明的方法
+
+
+2：常用方法
+    重点方法：equals()/toString()
+    了解方法：clone() /finalize()
+    目前不需要关注：
+3：equals()的使用
+    3.1：适用性：
+    任何引用数据类型都可以引用。
+    3.2：java.lang.Object类中equals()的定义。
+    public boolean equals(Object obj) {
+            return (this == obj);
+        }
+    3.3子类使用说明：
+    >自定义的类：在没有重写object中equals()方法的情况下，调用的就是object类中声明的equals()，比较两个对象的
+    引用地址是否相同。(或比较两个对象是否指向了堆空间的同一个对象的实体)
+    >对于像String、File、Date和包装类等，他们都重写了Object类中的equals()的方法，用于比较两个对象的实体内容是否相等。
+    3.4：开发中的使用说明
