@@ -60,7 +60,7 @@ class User {
 //        }
 //    }
 
-
+//idea自动生成
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
