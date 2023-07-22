@@ -14,5 +14,7 @@ public class orderTest {
         Order o1=new Order(1001,"Tim");
         Order o2=new Order(1001,"Tim");
         System.out.println(o1.equals(o2));
+        //这是测试的一段代码
+
     }
 }
