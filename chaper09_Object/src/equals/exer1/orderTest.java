@@ -18,5 +18,6 @@ public class orderTest {
         System.out.println("WinTest");
         System.out.println("MacTest");
         System.out.println("第三次测试");
+        System.out.println("第四次测试");
     }
 }
