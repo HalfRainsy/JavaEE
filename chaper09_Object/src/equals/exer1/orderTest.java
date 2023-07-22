@@ -17,5 +17,6 @@ public class orderTest {
         //这是测试的一段代码
         System.out.println("WinTest");
         System.out.println("MacTest");
+        System.out.println("第三次测试");
     }
 }
