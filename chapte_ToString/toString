@@ -1,0 +1,4 @@
+1:Object类中toString()的定义:
+public String toString() {
+        return getClass().getName() + "@" + Integer.toHexString(hashCode());
+    }
