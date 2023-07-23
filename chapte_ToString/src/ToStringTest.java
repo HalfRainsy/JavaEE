@@ -11,6 +11,8 @@ public class ToStringTest {
     public static void main(String[] args) {
         User u1=new User("Tom",12);
         System.out.println(u1.toString());
+        String s1=new String("hhhh");
+        System.out.println(s1);
     }
 
 }
@@ -24,5 +26,13 @@ class User{
     }
 
     public User() {
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
