@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ArrayList_Test/ArrayList_Test.iml" filepath="$PROJECT_DIR$/ArrayList_Test/ArrayList_Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/FaceObject-Mid-level/FaceObject-Mid-level.iml" filepath="$PROJECT_DIR$/FaceObject-Mid-level/FaceObject-Mid-level.iml" />
       <module fileurl="file://$PROJECT_DIR$/FaceToProject_02/FaceToProject_02.iml" filepath="$PROJECT_DIR$/FaceToProject_02/FaceToProject_02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEE.iml" filepath="$PROJECT_DIR$/JavaEE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaEE.iml" filepath="$PROJECT_DIR$/.idea/JavaEE.iml" />
       <module fileurl="file://$PROJECT_DIR$/Model1/Model1.iml" filepath="$PROJECT_DIR$/Model1/Model1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Oop1/Oop1.iml" filepath="$PROJECT_DIR$/Oop1/Oop1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Oop2/Oop2.iml" filepath="$PROJECT_DIR$/Oop2/Oop2.iml" />
@@ -16,10 +16,6 @@
       <module fileurl="file://$PROJECT_DIR$/Super/Super.iml" filepath="$PROJECT_DIR$/Super/Super.iml" />
       <module fileurl="file://$PROJECT_DIR$/chaper08_polymorphism/chaper08_polymorphism.iml" filepath="$PROJECT_DIR$/chaper08_polymorphism/chaper08_polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/chaper09_Object/chaper09_Object.iml" filepath="$PROJECT_DIR$/chaper09_Object/chaper09_Object.iml" />
-<<<<<<< HEAD
-=======
-      <module fileurl="file://$PROJECT_DIR$/chapte_ToString/chapte_ToString.iml" filepath="$PROJECT_DIR$/chapte_ToString/chapte_ToString.iml" />
->>>>>>> develop
       <module fileurl="file://$PROJECT_DIR$/overRide/overRide.iml" filepath="$PROJECT_DIR$/overRide/overRide.iml" />
     </modules>
   </component>
