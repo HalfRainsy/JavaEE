@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/Super/Super.iml" filepath="$PROJECT_DIR$/Super/Super.iml" />
       <module fileurl="file://$PROJECT_DIR$/chaper08_polymorphism/chaper08_polymorphism.iml" filepath="$PROJECT_DIR$/chaper08_polymorphism/chaper08_polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/chaper09_Object/chaper09_Object.iml" filepath="$PROJECT_DIR$/chaper09_Object/chaper09_Object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter08_oop3/chapter08_oop3.iml" filepath="$PROJECT_DIR$/chapter08_oop3/chapter08_oop3.iml" />
       <module fileurl="file://$PROJECT_DIR$/overRide/overRide.iml" filepath="$PROJECT_DIR$/overRide/overRide.iml" />
     </modules>
   </component>
