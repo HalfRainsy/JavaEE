@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef996764-b7c2-4d47-95fb-7c94048d5177" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/main/main方法的解析" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/main/MainDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/main/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter08_oop3/src/com/singleton/单例模式" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/singleton/单例模式" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08_oop3/src/com/main/main方法的解析" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/main/main方法的解析" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayList_1">
+  <component name="RunManager" selected="Application.MainDemo">
     <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exer1.AccountTest" />
       <module name="chapter08_oop3" />
@@ -96,12 +97,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.apply.CircleTest" />
+    <configuration name="MainDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.MainDemo" />
       <module name="chapter08_oop3" />
+      <option name="PROGRAM_PARAMETERS" value="Tim 78 &quot;Jerry&quot; " />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.apply.*" />
+          <option name="PATTERN" value="com.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,13 +111,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AccountTest" />
+      <item itemvalue="Application.ArrayList_1" />
+      <item itemvalue="Application.ArrayList_2" />
+      <item itemvalue="Application.ArrayList_Test03" />
+      <item itemvalue="Application.MainDemo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainDemo" />
         <item itemvalue="Application.ArrayList_1" />
         <item itemvalue="Application.ArrayList_2" />
         <item itemvalue="Application.ArrayList_Test03" />
         <item itemvalue="Application.AccountTest" />
-        <item itemvalue="Application.CircleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +142,7 @@
       <workItem from="1692164536940" duration="4491000" />
       <workItem from="1693269505232" duration="4996000" />
       <workItem from="1696120622315" duration="1986000" />
-      <workItem from="1696641199425" duration="1286000" />
+      <workItem from="1696641199425" duration="2034000" />
     </task>
     <servers />
   </component>
