@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef996764-b7c2-4d47-95fb-7c94048d5177" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/main/main方法的解析" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter08_oop3/src/com/singleton/GirlFriendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/singleton/GirlFriendTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08_oop3/src/com/singleton/单例模式" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/singleton/单例模式" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +133,7 @@
       <workItem from="1692164536940" duration="4491000" />
       <workItem from="1693269505232" duration="4996000" />
       <workItem from="1696120622315" duration="1986000" />
+      <workItem from="1696641199425" duration="1286000" />
     </task>
     <servers />
   </component>
