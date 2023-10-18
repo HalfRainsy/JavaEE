@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef996764-b7c2-4d47-95fb-7c94048d5177" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/s08interface/InterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/s08interface/接口的使用" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter08_oop3/src/com/s07abstract/abstract抽象与抽象方法" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/s07abstract/abstract抽象与抽象方法" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chapter08_oop3/com/s07abstract/abstract抽象与抽象方法" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter08_oop3/com/s07abstract/abstract抽象与抽象方法" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
       <recent name="com.block.exer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AbstractTest">
+  <component name="RunManager" selected="Application.InterfaceTest">
     <configuration name="AbstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.s07abstract.AbstractTest" />
       <module name="chapter08_oop3" />
@@ -88,13 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.MainDemo" />
+    <configuration name="InterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.s08interface.InterfaceTest" />
       <module name="chapter08_oop3" />
-      <option name="PROGRAM_PARAMETERS" value="Tim 78 &quot;Jerry&quot; " />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.main.*" />
+          <option name="PATTERN" value="com.s08interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,19 +117,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.InterfaceTest" />
       <item itemvalue="Application.AbstractTest" />
       <item itemvalue="Application.FieldTest" />
       <item itemvalue="Application.UserTest" />
       <item itemvalue="Application.BlockTest" />
-      <item itemvalue="Application.MainDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterfaceTest" />
         <item itemvalue="Application.AbstractTest" />
         <item itemvalue="Application.FieldTest" />
         <item itemvalue="Application.UserTest" />
         <item itemvalue="Application.BlockTest" />
-        <item itemvalue="Application.MainDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +149,7 @@
       <workItem from="1696120622315" duration="1986000" />
       <workItem from="1696641199425" duration="5483000" />
       <workItem from="1697354054220" duration="11891000" />
-      <workItem from="1697510327587" duration="1744000" />
+      <workItem from="1697510327587" duration="6584000" />
     </task>
     <servers />
   </component>
