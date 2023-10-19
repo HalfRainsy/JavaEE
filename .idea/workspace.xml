@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef996764-b7c2-4d47-95fb-7c94048d5177" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/s08interface/InterfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/s08interface/接口的使用" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/s09inner/OuterClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/s09inner/内部类" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter08_oop3/com/s07abstract/abstract抽象与抽象方法" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter08_oop3/com/s07abstract/abstract抽象与抽象方法" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chapter08_oop3/com/s08interface/Flyable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter08_oop3/com/s08interface/Flyable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chapter08_oop3/com/s08interface/接口的使用" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter08_oop3/com/s08interface/接口的使用" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,26 +51,13 @@
       <recent name="com.block.exer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterfaceTest">
+  <component name="RunManager" selected="Application.OuterClassTest">
     <configuration name="AbstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.s07abstract.AbstractTest" />
       <module name="chapter08_oop3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.s07abstract.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.block.BlockTest" />
-      <module name="chapter08_oop3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.block.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,6 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OuterClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.s09inner.OuterClassTest" />
+      <module name="chapter08_oop3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.s09inner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.block.exer.UserTest" />
       <module name="chapter08_oop3" />
@@ -118,18 +119,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.InterfaceTest" />
+      <item itemvalue="Application.OuterClassTest" />
       <item itemvalue="Application.AbstractTest" />
       <item itemvalue="Application.FieldTest" />
       <item itemvalue="Application.UserTest" />
-      <item itemvalue="Application.BlockTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OuterClassTest" />
         <item itemvalue="Application.InterfaceTest" />
         <item itemvalue="Application.AbstractTest" />
         <item itemvalue="Application.FieldTest" />
         <item itemvalue="Application.UserTest" />
-        <item itemvalue="Application.BlockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +150,7 @@
       <workItem from="1696120622315" duration="1986000" />
       <workItem from="1696641199425" duration="5483000" />
       <workItem from="1697354054220" duration="11891000" />
-      <workItem from="1697510327587" duration="6584000" />
+      <workItem from="1697510327587" duration="11466000" />
     </task>
     <servers />
   </component>
