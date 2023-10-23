@@ -1,0 +1,11 @@
+public static void main(String[] args) {
+
+    }
+    1：理解1：
+        看作普通的静态方法。
+       理解2：看作是程序的入口。格式是固定的。
+    2：与控制台的交互：
+       String[] args
+       如何从键盘获取数据？
+       >方式1：使用Scanner，
+       >方式2 ：使用main()的形参来进行传值。
