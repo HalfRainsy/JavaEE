@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef996764-b7c2-4d47-95fb-7c94048d5177" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/s12/wrapper/WrapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08_oop3/src/com/s12/wrapper/WrapperTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09_execption/chapter09_execption.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09_execption/src/com/s01/throwable/ErrorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09_execption/src/com/s01/trycatchfinally/ExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter08_oop3/chapter08_oop3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08_oop3/chapter08_oop3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter08_oop3/com/s09inner/Person$1InnerClass1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter08_oop3/com/s09inner/Person$1InnerClass1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter08_oop3/com/s09inner/Person$1InnerClass2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter08_oop3/com/s09inner/Person$1InnerClass2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter08_oop3/com/s09inner/Person$Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter08_oop3/com/s09inner/Person$Bird.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter08_oop3/com/s09inner/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter08_oop3/com/s09inner/Person.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +46,39 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8.0_271",
-    "last_opened_file_path": "D:/Desktop/java学习2023/06_软件与资料/05-资料/junit-libs",
+    "last_opened_file_path": "D:/javacode/JavaEE/chapter09_execption/src/com/s01/trycatchfinally",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javacode\JavaEE\chapter09_execption\src\com\s01\trycatchfinally" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.block.exer" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WrapperTest2.Test2">
+  <component name="RunManager" selected="JUnit.ExceptionTest.Test1">
+    <configuration name="ExceptionTest.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter09_execption" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.s01.trycatchfinally.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.s01.trycatchfinally" />
+      <option name="MAIN_CLASS_NAME" value="com.s01.trycatchfinally.ExceptionTest" />
+      <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WrapperTest2.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chapter08_oop3" />
       <extension name="coverage">
@@ -90,22 +106,6 @@
       <option name="PACKAGE_NAME" value="com.s12.wrapper" />
       <option name="MAIN_CLASS_NAME" value="com.s12.wrapper.WrapperTest2" />
       <option name="METHOD_NAME" value="Test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WrapperTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chapter08_oop3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.s12.wrapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.s12.wrapper" />
-      <option name="MAIN_CLASS_NAME" value="com.s12.wrapper.WrapperTest" />
-      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,7 +144,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.WrapperTest.test2" />
+      <item itemvalue="JUnit.ExceptionTest.Test1" />
       <item itemvalue="JUnit.WrapperTest.test3" />
       <item itemvalue="JUnit.WrapperTest.test5" />
       <item itemvalue="JUnit.WrapperTest2.Test1" />
@@ -152,11 +152,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExceptionTest.Test1" />
         <item itemvalue="JUnit.WrapperTest2.Test2" />
         <item itemvalue="JUnit.WrapperTest2.Test1" />
         <item itemvalue="JUnit.WrapperTest.test5" />
         <item itemvalue="JUnit.WrapperTest.test3" />
-        <item itemvalue="JUnit.WrapperTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +178,8 @@
       <workItem from="1697354054220" duration="11891000" />
       <workItem from="1697510327587" duration="12061000" />
       <workItem from="1698033277521" duration="1327000" />
-      <workItem from="1698045741545" duration="1643000" />
+      <workItem from="1698045741545" duration="3998000" />
+      <workItem from="1698051631372" duration="1657000" />
     </task>
     <servers />
   </component>
