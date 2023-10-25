@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef996764-b7c2-4d47-95fb-7c94048d5177" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter09_execption/chapter09_execption.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09_execption/src/com/s01/throwable/ErrorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09_execption/src/com/s01/trycatchfinally/ExceptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09_execption/src/com/s01/_throws/ThrowsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +176,7 @@
       <workItem from="1697510327587" duration="12061000" />
       <workItem from="1698033277521" duration="1327000" />
       <workItem from="1698045741545" duration="3998000" />
-      <workItem from="1698051631372" duration="1657000" />
+      <workItem from="1698051631372" duration="3794000" />
     </task>
     <servers />
   </component>
