@@ -1,20 +1,26 @@
-package com.s02.create.threadsafe;
+package com.s04.threadsafemore.deadlock;
+
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * ClassName: WindowTest1
  * Package: com.s02.create.notsafe
  * Description:
- * <p>
- * synchronized (同步监视器){//同步监视器：俗称锁   哪个线程获取了锁，哪个线程就能执行需要被同步的代码。
- * 可以使用任何一个类的对象充当，但是多个线程必须同用一个同步监视器
- * //需要被同步的代码
- * }
+ *
+ *               synchronized (同步监视器){//同步监视器：俗称锁   哪个线程获取了锁，哪个线程就能执行需要被同步的代码。
+ *                                                  可以使用任何一个类的对象充当，但是多个线程必须同用一个同步监视器
+ *             //需要被同步的代码
+ *               }
+ *
+ *
+ *
  *
  * @Author Tim
  * @Create 2023/10/25 10:54
  * @Version 1.0
  */
-public class WindowTest {
+public class LockTest1 {
 
     public static void main(String[] args) {
         Windows w1 = new Windows();
@@ -26,24 +32,21 @@ public class WindowTest {
         w1.start();
         w2.start();
         w3.start();
+
+
+
     }
 }
 
-class Windows extends Thread {
+class Windows extends Thread  {
     static int ticket = 100;
-    static Object obj = new Object();
+    private static  ReentrantLock lock= new ReentrantLock();
 
     @Override
     public void run() {
-        try {
-            Thread.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         while (true) {
-
-            synchronized (Windows.class) {//this代表windows的对象 -->w1,w2,w3  不能保证锁的唯一性
-                //obj使用static保证线程的唯一性
+            try {
+                lock.lock();//锁定资源调用
                 if (ticket > 0) {
                     try {
                         Thread.sleep(10);
@@ -55,6 +58,8 @@ class Windows extends Thread {
                 } else {
                     break;
                 }
+            }finally {
+                lock.unlock();//释放共享数据的锁定
             }
         }
     }
