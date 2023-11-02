@@ -1,4 +1,4 @@
-package com.s04.threadsafemore.deadlock.singleton;
+package com.s04.threadsafemore.singleton;
 
 /**
  * ClassName: BankTest

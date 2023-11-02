@@ -1,6 +1,5 @@
 package com.s04.threadsafemore.deadlock;
 
-import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
