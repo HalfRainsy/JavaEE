@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef996764-b7c2-4d47-95fb-7c94048d5177" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter11_api/chapter11_api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11_api/src/com/s01/string/exer3/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11_api/src/com/s01/string/exer3/string类的使用" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +177,7 @@
       <workItem from="1698045741545" duration="3998000" />
       <workItem from="1698051631372" duration="12990000" />
       <workItem from="1698718736001" duration="2594000" />
-      <workItem from="1698803106090" duration="13727000" />
+      <workItem from="1698803106090" duration="15786000" />
     </task>
     <servers />
   </component>
